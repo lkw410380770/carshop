@@ -1,0 +1,117 @@
+html,body,div,ul,li,ol,a,input,textarea,p,dl,dt,dd{margin:0;padding:0;}
+ul li{list-style: none;}
+a{text-decoration: none;cursor: pointer;}
+html{height: 100%;}
+a,input,img,textarea,span,div{outline: 0;-webkit-tap-highlight-color:rgba(255,0,0,0);}
+header{
+    width:100%;
+    height: 45px;
+    background: #ececea;
+    border-bottom: 1px solid #ddd;
+}
+header.fixed{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+.header{
+    margin:0 20px;
+    text-align: center;
+    color: #4e4a49;
+    font-size: 1em;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+}
+#letter{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    font-size: 75px;
+    color: #555;
+    text-align: center;
+    line-height: 100px;
+    background: rgba(145,145,145,0.6);
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin:-50px 0px 0px -50px;
+    z-index: 99;
+    display: none;
+}
+#letter img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin:25px 0px 0px 25px;
+}
+.sort_box{
+    width: 100%;
+    padding-top: 15px;
+    overflow: hidden;
+}
+.sort_list{
+    position: relative;
+    height: 60px;
+    line-height: 40px;
+    border-bottom:1px solid #ddd;
+}
+
+.sort_list .num_logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+    float: left;
+    margin-top:5px;
+    margin-left:10px;
+}
+.sort_list .num_logo img{
+    width: 50px;
+    height: 50px;
+}
+.sort_list .num_name{
+    color: #000;
+    float: left;
+    line-height:60px;
+    text-indent:20px;
+}
+.sort_list .radioList-btn{
+    width:20px;
+    height:20px;
+    float: right;
+    margin-right:10px;
+    margin-top:8.5px;
+    cursor: pointer;
+}
+.sort_list .radioList-btn i{
+    color:#ccc;
+}
+.sort_list .radioList-btn span{
+    display: none;
+}
+.sort_letter{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    color:#787878;
+    font-size: 14px;
+    border-bottom:1px solid #ddd;
+    background: #eee;
+}
+.initials{
+    position: fixed;
+    top: 47px;
+    right: 0px;
+    height: 75%;
+    width: 30px;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 12px;
+    z-index: 99;
+    background: rgba(145,145,145,0);
+}
+.initials li img{
+    width: 14px;
+}

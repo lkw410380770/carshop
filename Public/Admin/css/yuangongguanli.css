@@ -1,0 +1,226 @@
+﻿body,html{
+	overflow-x:hidden;
+}
+.titleNav .bgColor1{
+	background: #2F4056;
+}
+.titleNav{
+	width:100%;
+	height:60px;
+	background: #f9f9f9;
+	overflow: hidden;
+}
+.serchBox .info_serch{
+	float: left;
+	margin-left:15px;
+	margin-top: 15px;
+	width:25%;
+}
+.serchBox .info_serch input{
+	width:65%;
+}
+.serchBox .info_serch span{
+	height:40px;
+}
+.serchBox .info_serch span button{
+	border:0;
+	background:none;
+	display: block;
+	width: 100%;
+	height:100%;
+	cursor: pointer;
+}
+.titleNav .addDepar{
+	width:126px;
+	height:40px;
+	border-radius: 5px;
+	color:#fff;
+	background: #00bf75;
+	text-align:center;
+	line-height: 40px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top:10px;
+	margin-left:15px;
+	float: left;
+}
+.titleNav .addDepar i{
+	font-size: 20px;
+	font-weight: bold;
+}
+.formBox ul li{
+	float: left;
+	width:50%;
+	margin-top:20px;
+}
+.formBox ul li label{
+	width:80px;
+	float: left;
+	text-align:justify; 
+	text-justify:distribute-all-lines; 
+	text-align-last:justify;
+	margin-right:10px;
+	display: block;
+	margin-left: 20px;
+	line-height: 36px
+}
+.formBox ul li div{
+	margin-left:20px;
+}
+.formBox ul li input{
+	margin-top:6px;
+	width:240px;
+	border:1px solid #e5e5e5;
+	height:30px;
+}
+
+.formBox .btnBox{
+	width:100%;
+	margin-top:60px;
+	height:60px;
+	overflow: hidden;
+}
+.formBox .btnBox .submit{
+	display: block;
+	border:0;
+	width:80px;
+	height:35px;
+	background: #3781cd;
+	color:#fff;
+	margin:20px auto;
+}
+
+/*分配角色滑动Box*/
+.mask{
+	width:100%;
+	height:100%;
+	opacity: 0;
+	filter:alpha(opacity=0);
+	background: rgba(0,0,0,.3);
+	display: none;
+	z-index: 9998;
+	position: fixed;
+	left:0;
+	top:0;
+}
+.fiexdBox{
+	width:25%;
+	height:100%;
+	position: absolute;
+	right:-25%;
+	top:0;
+	background: #fff;
+	box-shadow: 1px 1px 8px rgba(0,0,0,.4);
+	display: none;
+	overflow-x:hidden;
+	z-index: 9999;
+}
+.fiexdBox .top_box{
+	width:100%;
+	height:60px;
+	line-height: 60px;
+}
+.fiexdBox .top_box ul li span{
+	margin-left:20px;
+	margin-right:15px;
+}
+.fiexdBox .top_box ul li input{
+	border:1px solid #e5e5e5;
+	height:30px;
+	text-indent: 5px;
+	width:55%;
+	background: #f2f2f2;
+}
+.fiexdBox h4{
+	background: #f2f2f2;
+	line-height: 45px;
+	font-size: 16px;
+	font-weight: bold;
+	text-indent: 10px;
+
+}
+.fiexdBox h4 span{
+	display: block;
+	width:5px;
+	height:35px;
+	margin-top:5px;
+	background: #009688;
+	float: left;
+	margin-left: 10px;
+}
+.layui-form-radio{
+	margin:0;
+}
+.fiexdBox .info_box{
+	width:100%;
+}
+.fiexdBox .info_box ul li{
+	width: 50%;
+	float: left;
+	margin:10px 0;
+}
+.fiexdBox .info_box ul li span{
+	display: block;
+	width: 20px;
+	height:20px;
+	border:1px solid #d2d2d2;
+	border-radius: 50%;
+	float: left;
+	margin:0 10px;
+	cursor: pointer;
+}
+.fiexdBox .info_box ul li span input{
+	display: none;
+}
+.fiexdBox .info_box ul li span b{
+	display: none;
+	width:10px;
+	height:10px;
+	border-radius: 50%;
+	background: #009688;
+	margin:5px auto;
+}
+.layui-form-label{
+	float: none;
+}
+.layui-input-block{
+	margin-left: 10px;
+}
+.layui-form-item{
+	margin-bottom: 0;
+}
+#btnn{
+	border:0;
+	width:70px;
+	height: 25px;
+	text-align: center;
+	line-height:25px;
+	background: #009688;
+	color:#fff;
+	float: right;
+	font-size: 13px;
+	margin-right:15px;
+	margin-top:10px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.pageLeft ul li span{
+	display: block;
+	width: 16px;
+	height: 16px;
+	border:1px solid #ddd;
+	float: left;
+}
+.pageLeft ul li strong{
+	float: left;
+	margin-left: 10px;
+}
+.pageLeft ul li span i{
+	display: none;
+	width: 10px;
+	height: 10px;
+	background: #ffa000;
+	margin:0 auto;
+	margin-top:3px;
+
+}

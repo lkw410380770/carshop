@@ -1,0 +1,6 @@
+[ 2029-04-21T20:12:00+08:00 ] 127.0.0.1 /index.php/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+ERR: 无法加载模块:Index
+

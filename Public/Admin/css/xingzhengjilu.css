@@ -1,0 +1,140 @@
+.titleNav .bgColor1{
+	background: #2F4056;
+}
+.titleNav{
+	width:100%;
+	height:60px;
+	background: #f9f9f9;
+	overflow: hidden;
+}
+.titleNav .addDepar{
+	width:126px;
+	height:40px;
+	border-radius: 5px;
+	color:#fff;
+	background: #00bf75;
+	text-align:center;
+	line-height: 40px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top:10px;
+	margin-left:15px;
+	float: left;
+}
+.serchBox .info_serch{
+	float: left;
+	margin-left:15px;
+	margin-top: 0;
+	width:25%;
+}
+.serchBox .info_serch input{
+	width:65%;
+}
+.serchBox .info_serch span{
+	height:40px;
+}
+.serchBox .info_serch span button{
+	border:0;
+	background:none;
+	display: block;
+	width: 100%;
+	height:100%;
+	cursor: pointer;
+}
+.timeBox{
+	margin-top:10px;
+}
+.timeBox span{
+	display: block;
+	width:40px;
+	height:38px;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	font-size: 22px;
+	border:1px solid #e6e6e6;
+	border-radius: 2px;
+	border-right:0;
+}
+.formBox ul li{
+	float: left;
+	width:50%;
+	margin-top:20px;
+	height:45px;
+}
+.formBox ul li label{
+	width:80px;
+	float: left;
+	text-align:justify; 
+	text-justify:distribute-all-lines; 
+	text-align-last:justify;
+	margin-right:10px;
+	display: block;
+	margin-left: 20px;
+	line-height: 36px
+}
+.formBox ul li div{
+	margin-left:20px;
+}
+.formBox ul li input.textEle{
+	margin-top:6px;
+	width:240px;
+	border:1px solid #e5e5e5;
+	height:30px;
+}
+.formBox ul li textarea{
+	width:500px;
+	height:150px;
+}
+.formBox .btnBox{
+	width:100%;
+	margin-top:60px;
+	height:60px;
+	overflow: hidden;
+}
+.formBox .btnBox .submit{
+	display: block;
+	border:0;
+	width:80px;
+	height:35px;
+	background: #3781cd;
+	color:#fff;
+	margin:20px auto;
+}
+
+
+
+.formBox ul li label.widthAuto{
+	width: auto;
+}
+.formBox ul li input{
+	float: left;
+	width: auto;
+}
+.formBox ul li i{
+	float: left;
+	display: block;
+	line-height: 45px;
+	margin-left: 5px;
+	font-style: normal;
+}
+.pageLeft ul li span{
+	display: block;
+	width: 16px;
+	height: 16px;
+	border:1px solid #ddd;
+	float: left;
+}
+.pageLeft ul li strong{
+	float: left;
+	margin-left: 10px;
+}
+.pageLeft ul li span i{
+	display: none;
+	width: 10px;
+	height: 10px;
+	background: #ffa000;
+	margin:0 auto;
+	margin-top:3px;
+
+}

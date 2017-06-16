@@ -1,0 +1,432 @@
+.warp-form{
+	width: 50%;
+	margin-left: 5%;
+}
+.titleAdd{
+	width: 100%;
+	height:60px;
+	background: #f9f9f9;
+	line-height: 60px;
+	text-indent: 15px;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.titleAdd span{
+	display: block;
+	width:5px;
+	height:40px;
+	margin-top: 10px;
+	float: left;
+	background: #009688;
+	margin-left: 10px;
+}
+.info-box{
+	width:100%;
+	height:auto;
+}
+.layui-form-label{
+	padding: 0;
+	line-height: 38px;
+}
+.descContent{
+	border:1px solid #dddddd;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-bottom: 15px;
+	position: relative;
+}
+.closeThis{
+	width: 30px;
+	height:30px;
+	background: #ff6663;
+	color:#fff;
+	text-align: center;
+	line-height: 30px;
+	position: absolute;
+	top:0px;
+	right:0px;
+	cursor: pointer;
+}
+.descContent ul li.line-bottom{
+	border-bottom:1px solid #dddddd;
+	overflow: hidden;
+}
+.leftInfo{
+	display: block;
+	float: left;
+	line-height: 30px;
+	width:10%;
+	text-align: center;
+	color:#333333;
+	font-size: 14px;
+	height:100%;
+}
+.rightInfo{
+	width: 90%;
+	border-left:1px solid #ddd;
+	overflow: hidden;
+	float: left;
+	
+}
+.rightInfo ul li{
+	float: left;
+	padding: 5px;
+	border:1px solid #cccccc;
+	border-radius: 5px;
+	color:#888888;
+	margin: 5px;
+	overflow: hidden;
+}
+.rightInfo ul li span.removeThis{
+	float: right;
+	color:#fd7a77;
+	cursor: pointer;
+}
+.rightInfo ul li.addBtn{
+	background: #f2f2f2;
+	cursor: pointer;
+}
+.rightInfo ul li.textareaInfo{
+	border:0;
+}
+.rightInfo ul li.textareaInfo textarea{
+	border:0;
+	width:380px;
+	height:80px;
+}
+.rightInfo ul li.textareaInfo input{
+	border:0;
+	width:380px;
+	height:30px;
+	line-height: 30px;
+}
+.addDescBtn{
+	width:120px;
+	height:36px;
+	text-align: center;
+	line-height: 36px;
+	color:#333333;
+	background: #f2f2f2;
+	border:1px solid #dddddd;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.addDescBtn i{
+	font-weight: bold;
+}
+.imgList ul li{
+	float: left;
+	width:150px;
+	height:100px;
+	position: relative;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.imgList ul li img{
+	width:100%;
+	height: 100%;
+}
+.imgList ul li span.deleteImg{
+	display: block;
+	width: 20px;
+	height:20px;
+	background: #ff6663;
+	color:#fff;
+	border-radius: 50%;
+	position: absolute;
+	right:-10px;
+	top:-10px;
+	text-align: center;
+	line-height: 20px;
+	cursor: pointer;
+}
+/*.imgList ul li.uploadBtn{
+	cursor: pointer;
+	background: url(../images/uoload-bg_03.jpg) no-repeat center center;
+	border:1px solid #dddddd;
+}*/
+.floatInput{
+	float: left;
+	width: 300px;
+}
+.dateIcon{
+	line-height: 38px;
+	margin-left: 10px;
+	font-size: 30px;
+	color:#ccc;
+}
+.ChoicePeople{
+	width: 80px;
+	height:30px;
+	background: #F7B824;
+	text-align: center;
+	line-height: 30px;
+	color:#fff;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 12px;
+}
+/*侧滑窗口选择人员*/
+.sliderPeople{
+	width:25%;
+	height:100%;
+	position: fixed;
+	right:-25%;
+	top:0;
+	box-shadow: 1px 1px 8px rgba(0,0,0,.4);
+	background: #fff;
+	display: none;
+}
+.sliderPeople h4{
+	width:100%;
+	height:50px;
+	line-height: 50px;
+	background: #f2f2f2;
+	font-size: 16px;
+	text-indent: 10px;
+	font-weight: bold;
+}
+.sliderPeople h4 span{
+	display: block;
+	width: 5px;
+	height:40px;
+	margin-top:5px;
+	background: #009688;
+	float: left;
+	margin-left: 10px;
+}
+.sliderPeople h4 b{
+	float: right;
+	margin-right: 15px;
+	cursor: pointer;
+
+}
+.sliderPeople h4 b i{
+	color:#fd7d7b;
+	font-size: 22px;
+}
+.peoBox{
+	width: 100%;
+	height:85%;
+	overflow-y:scroll;
+}
+.peoBox .peoInfo{
+	overflow: hidden;
+}
+.peoBox .peoInfo h5{
+	height:35px;
+	line-height: 35px;
+	background: #f2f2f2;
+	color:#888888;
+	font-size: 16px;
+	text-indent: 10px;
+	overflow: hidden;
+}
+.peoBox .peoInfo h5 span{
+	float: right;
+	margin-right: 15px;
+	cursor: pointer;
+}
+.peoBox .peoInfo ul li{
+	width: 90%;
+	margin:0 auto;
+	border-bottom: 1px solid #dddddd;
+	height: 70px;
+	overflow: hidden;
+
+}
+.peoBox .peoInfo .sort_box .sort_list{
+	width: 90%;
+	margin:0 auto;
+}
+.peoBox .peoInfo .sort_box .sort_list .inputChecked{
+	float: left;
+	width:18px;
+	height:100%;
+	margin-right: 20px;
+}
+.peoBox .peoInfo .sort_box .sort_list .inputChecked span{
+	display: block;
+	width:20px;
+	height:20px;
+	border:1px solid #ccc;
+	margin-top:20px;
+	cursor: pointer;
+	position: relative;
+}
+.peoBox .peoInfo .sort_box .sort_list .inputChecked span i{
+	position: absolute;
+	left: 0;
+	top:-10px;
+	color:#30c52d;
+	font-size: 22px;
+	display: none;
+}
+.peoBox .peoInfo ul li .inputWrap{
+	width:18px;
+	height:100%;
+	float: left;
+}
+.peoBox .peoInfo ul li .inputWrap span{
+	display: block;
+	height:18px;
+	width: 18px;
+	border:1px solid #cccccc;
+	margin-top:25px;
+	cursor: pointer;
+	position: relative;
+}
+.peoBox .peoInfo ul li .inputWrap span i{
+	position: absolute;
+	left: 0;
+	top:-5px;
+	color:#30c52d;
+	font-size: 22px;
+	display: none;
+}
+.peopleContent span{
+	display: block;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	margin-left:15px;
+	margin-top:10px;
+	float: left;
+}
+.peopleContent span img{
+	width: 100%;
+	height:100%;
+	border-radius: 50%;
+}
+.peopleContent strong{
+	display: inline-block;
+	margin-top:15px;
+	margin-left: 15px;
+	font-size: 18px;
+	color:#333333;
+}
+.peopleContent b{
+	display: inline-block;
+	margin-left: 15px;
+	font-size: 14px;
+	color:#888888;
+}
+.foot-bottom{
+	width: 100%;
+	height: 80px;
+}
+.foot-bottom span{
+	display: block;
+	height: 18px;
+	width:18px;
+	float: left;
+	border:1px solid #cccccc;
+	margin-top: 31px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.foot-bottom span b{
+	display: block;
+	width:12px;
+	height: 12px;
+	background: #ffa000;
+	margin:0 auto;
+	margin-top:2px;
+	display: none;
+}
+.foot-bottom .peoAdd{
+	width: 120px;
+	height: 48px;
+	background: #ffc400;
+	color:#fff;
+	text-align: center;
+	line-height: 48px;
+	float: left;
+	margin-top: 8px;
+	margin-right: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 15%;
+}
+.foot-bottom strong{
+	line-height: 80px;
+	margin-left: 10px;
+	float: left;
+}
+#inputFind{
+	display: block;
+	width: 80%;
+	margin:15px auto;
+	height:40px;
+	line-height: 40px;
+	border-radius: 25px;
+	border:1px solid #ccc;
+	text-indent: 10px;
+}
+
+.mask{
+	width: 100%;
+	height:100%;
+	position: fixed;
+	left:0;
+	top:0;
+	background:rgba(0,0,0,.3);
+	display: none;
+}
+/*end*/
+
+/*负责人*/
+.fuzeren ul li img{
+	border-radius: 50%;
+	width:100px;
+	height:100px;
+
+}
+.fuzeren ul li{
+	width: 100px;
+	line-height: 40px;
+	text-align: center;
+	color:#666;
+}
+/*参与人*/
+.canyu{
+
+}
+.canyu ul li{
+	width: 80px;
+	float: left;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	position: relative;
+}
+.canyu ul li b{
+	width:20px;
+	height:20px;
+	position: absolute;
+	right:-10px;
+	top:-10px;
+	border-radius: 50%;
+	background: #ff6663;
+	color:#fff;
+	text-align: center;
+	line-height: 20px;
+	cursor: pointer;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+.canyu ul li span{
+	display: block;
+	width: 100%;
+	height: 80px;
+}
+.canyu ul li span img{
+	display: block;
+	width: 100%;
+	height:100%;
+	border-radius: 50%;
+}
+.canyu ul li p{
+	text-align: center;
+	line-height: 25px;
+}

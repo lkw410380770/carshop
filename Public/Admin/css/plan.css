@@ -1,0 +1,155 @@
+.titleNav{
+	width: 100%;
+	height:60px;
+	background: #f9f9f9;
+	overflow: hidden;
+}
+.titleNav span.futitle{
+	display: block;
+	width:129px;
+	height:100%;
+	text-align: center;
+	line-height: 60px;
+	color:#333;
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+}
+.titleNav span.btnright{
+	display: block;
+	width:95px;
+	height:40px;
+	border-radius: 5px;
+	margin-top:10px;
+	margin-right:15px;
+	line-height: 40px;
+	cursor: pointer;
+}
+.titleNav span.guanli{
+	float: right;
+	font-size: 16px;
+	line-height: 40px;
+}
+.titleNav span.guanli i{
+	font-size: 22px;
+	line-height: 40px;
+	float: left;
+}
+.titleNav span.addPlan{
+	float: right;
+	background: #00bf75;
+	color:#fff;
+	text-indent:10px;
+}
+.titleNav ul{
+	height:100%;
+	width:60%;
+	float: left;
+}
+.titleNav ul li{
+	width:129px;
+	height:100%;
+	line-height: 60px;
+	font-size: 18px;
+	color:#333333;
+	float: left;
+	text-align: center;
+}
+.titleNav ul li a{
+	display: block;
+	width:100%;
+	height:100%;
+	text-decoration: none;
+	color:#333;
+}
+.titleNav ul li.active{
+	height:58px;
+	border-top:2px solid #ff6f00;
+	background: #ffa000;
+}
+.titleNav ul li.active a{
+	color:#fff;
+}
+/*二级导航*/
+.twoNav{
+	width:100%;
+	height:60px;
+	border-bottom: 1px solid #dddddd;
+}
+.twoNav ul li{
+	float: left;
+	line-height: 60px;
+	padding: 0 40px;
+	text-align: center;
+	line-height: 60px;
+}
+.twoNav ul li a{
+	color:#333;
+	text-decoration: none;
+}
+.twoNav ul li.touchNow{
+	height:59px;
+	border-bottom: 1px solid #ffbb67;
+}
+.twoNav ul li.touchNow a{
+	color:#ffbb67;
+}
+.serchBox .info_serch{
+	float: left;
+	margin-left:15px;
+	width:25%;
+}
+.serchBox .info_serch input{
+	width:65%;
+}
+.serchBox .btnList{
+	width:80px;
+	height:40px;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	margin-top:10px;
+	color:#fff;
+	margin-left:10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.layui-form-item .layui-input-inline{
+	width:120px;
+}
+.layui-form-label{
+	width: 90px;
+}
+.inputRadio input{
+	display: block;
+	float: left;
+	margin-top:15px;
+	margin-left: 5px;
+}
+.inputRadio i{
+	display: block;
+	float: left;
+	font-style: normal;
+	margin-left: 10px;
+	line-height: 42px;
+}
+.pageLeft ul li span{
+	display: block;
+	width: 16px;
+	height: 16px;
+	border:1px solid #ddd;
+	float: left;
+}
+.pageLeft ul li strong{
+	float: left;
+	margin-left: 10px;
+}
+.pageLeft ul li span i{
+	display: none;
+	width: 10px;
+	height: 10px;
+	background: #ffa000;
+	margin:0 auto;
+	margin-top:3px;
+
+}

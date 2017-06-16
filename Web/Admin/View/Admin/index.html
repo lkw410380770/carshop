@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>管理员列表</title>
+  	<link rel="stylesheet" type="text/css" href="__PUBLIC__/font/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/layui/css/layui.css">
+  	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/public.css">
+  	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/plan.css">
+  	<script type="text/javascript" src="__PUBLIC__/js/jquery-1.9.1.min.js"></script>
+  	<script type="text/javascript" src="__PUBLIC__/layui/layui.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/addAdmin.js"></script>
+</head>
+<body>
+<div class="bigBox">
+  	 <div class="titleNav">
+	  	<span class="futitle">管理员列表</span>
+	  	<a href="__URL__/add"><span class="addPlan btnright"><i class="iconfont icon-jiahao"></i>添加管理员</span></a>
+  	</div>
+  <div class="info_table">
+    <table class="layui-table layui-form" lay-even>
+		  <thead>
+		    <tr>
+		      <th width="50"><input type="checkbox" name="" lay-skin="primary"></th>
+		      <th width="200">id</th>
+		      <th>管理员名称</th>
+		      <th>操作</th>
+		    </tr> 
+		  </thead>
+		  <tbody>
+		  <volist name="user" id="data">
+			<tr>
+				<td><input type="checkbox" name="" lay-skin="primary"></td>
+				<td>{$data.id}</td>
+				<td>{$data.name}</td>
+				<td>
+					<a onClick=""  href="__URL__/details/id/{$data.id}" title="详情"  class="tableBtn co1"><i class="iconfont icon-xiangqingshuoming"></i>详情</a>
+					<a title="删除" href="__URL__/deletePlan/id/{$data.id}"  onclick="member_del(this,'1')" class="tableBtn co2" ><i class="iconfont icon-delete"></i>删除</a>
+				</td>
+			</tr>
+		  </volist>
+		  </tbody>
+	</table>
+  </div>
+
+  <!-- 分页 -->
+  <div class="pageBox"><div class="pageRight">{$page}</div></div>
+</div>
+</body>
+</html>
+</body>
+<script>
+	var guanliUrl = "{:U('Plan/guanliBox')}";
+</script>
+

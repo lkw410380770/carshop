@@ -1,0 +1,168 @@
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	background: #fff;
+    width:100%;
+    height:100%;
+    font-family: "微软雅黑";
+}
+.caozuo{
+	margin-left: 5px;
+}
+.td_xq{
+	color:#5291c4;
+	font-size: 14px;
+}
+.td_sc{
+	color:red;
+	font-size: 14px;
+}
+.td_gl{
+	color:#01AAED;
+	font-size: 14px;
+}
+.serchBox{
+	width:100%;
+	height:60px;
+	overflow: hidden;
+}
+.serchBox .info_serch{
+	width:30%;
+	float: right;
+	border:1px solid #dddddd;
+	border-radius: 3px;
+	height:40px;
+	margin-top:10px;
+	margin-right:30px;
+}
+.serchBox .info_serch span{
+	display: block;
+	width:98px;
+	height:40px;
+	background: #f2f2f2;
+	font-size: 16px;
+	color:#7a7676;
+	text-align: center;
+	line-height: 38px;
+	float: right;
+	cursor: pointer;
+}
+.serchBox .info_serch input{
+	border: 0;
+	height:100%;
+	width:80%;
+	text-indent: 5px;
+}
+.pageBox{
+	width:100%;
+	height:70px;
+	overflow: hidden;
+}
+.pageBox .pageLeft{
+	width:50%;
+	height:auto;
+	float: left;
+	overflow: hidden;
+}
+.pageBox .pageLeft ul li{
+	float: left;
+	margin-left:15px;
+}
+.pageBox .pageLeft ul li div.deleteBtn{
+	width:100px;
+	height:32px;
+	background: #ff6663;
+	color:#fff;
+	text-align: center;
+	line-height: 32px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.pageBox .pageRight{
+	width:35%;
+	float: right;
+}
+.pageBox .pageRight span.current{
+	display: block;
+	width:32px;
+	height:32px;
+	color:#fff;
+	background: #ffc400;
+	text-align: center;
+	line-height: 32px;
+	float: left;
+	margin-left: 2px;
+}
+.pageBox .pageRight a{
+	float: left;
+	color:#797979;
+	display: block;
+	width:32px;
+	height:32px;
+	margin-left: 2px;
+	border:1px solid #dddddd;
+	text-align: center;
+	line-height: 32px;
+}
+.pageBox .pageRight a.first{
+	width:48px;
+}
+.pageBox .pageRight a.prev{
+	width:68px;
+}
+.pageBox .pageRight a.next{
+	width:68px;
+}
+.pageBox .pageRight a.last{
+	width:48px;
+}
+
+/*弹出框表单*/
+.formBox ul li{
+	float: left;
+	width:50%;
+	margin-top:20px;
+}
+.formBox ul li label{
+	width:80px;
+	float: left;
+	text-align:justify; 
+	text-justify:distribute-all-lines; 
+	text-align-last:justify;
+	margin-right:10px;
+	display: block;
+	margin-left: 20px;
+	line-height: 36px
+}
+.formBox ul li div{
+	margin-left:20px;
+}
+.formBox ul li input{
+	margin-top:6px;
+	width:240px;
+	border:1px solid #e5e5e5;
+	height:30px;
+	text-indent: 5px;
+}
+.formBox ul li textarea{
+	width:500px;
+	height:150px;
+	border:1px solid #e5e5e5;
+}
+.formBox .btnBox{
+	width:100%;
+	margin-top:60px;
+	height:60px;
+	overflow: hidden;
+}
+.formBox .btnBox .submit{
+	display: block;
+	border:0;
+	width:80px;
+	height:35px;
+	background: #3781cd;
+	color:#fff;
+	margin:20px auto;
+}

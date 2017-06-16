@@ -1,0 +1,372 @@
+.titleNav{
+	width: 100%;
+	height:60px;
+	background: #f9f9f9;
+	overflow: hidden;
+}
+.titleNav span.futitle{
+	display: block;
+	width:129px;
+	height:100%;
+	text-align: center;
+	line-height: 60px;
+	color:#333;
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+}
+.titleNav span.btnright{
+	display: block;
+	width:95px;
+	height:40px;
+	border-radius: 5px;
+	margin-top:10px;
+	margin-right:15px;
+	line-height: 40px;
+	cursor: pointer;
+}
+.titleNav span.guanli{
+	float: right;
+	font-size: 16px;
+	line-height: 40px;
+}
+.titleNav span.guanli i{
+	font-size: 22px;
+	line-height: 40px;
+	float: left;
+}
+.titleNav span.addPlan{
+	float: right;
+	background: #00bf75;
+	color:#fff;
+	text-indent:10px;
+}
+.titleNav ul{
+	height:100%;
+	width:60%;
+	float: left;
+}
+.titleNav ul li{
+	width:129px;
+	height:100%;
+	line-height: 60px;
+	font-size: 18px;
+	color:#333333;
+	float: left;
+	text-align: center;
+}
+.titleNav ul li a{
+	display: block;
+	width:100%;
+	height:100%;
+	text-decoration: none;
+	color:#333;
+}
+.titleNav ul li.active{
+	height:58px;
+	border-top:2px solid #ff6f00;
+	background: #ffa000;
+}
+.titleNav ul li.active a{
+	color:#fff;
+}
+/*二级导航*/
+.twoNav{
+	width:100%;
+	height:60px;
+	border-bottom: 1px solid #dddddd;
+}
+.twoNav ul li{
+	float: left;
+	line-height: 60px;
+	padding: 0 40px;
+	text-align: center;
+	line-height: 60px;
+}
+.twoNav ul li a{
+	color:#333;
+	text-decoration: none;
+}
+.twoNav ul li.touchNow{
+	height:59px;
+	border-bottom: 1px solid #ffbb67;
+}
+.twoNav ul li.touchNow a{
+	color:#ffbb67;
+}
+.serchBox .info_serch{
+	float: left;
+	margin-left:15px;
+	width:25%;
+}
+.serchBox .info_serch input{
+	width:65%;
+}
+.serchBox .btnList{
+	width:80px;
+	height:40px;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	margin-top:10px;
+	color:#fff;
+	margin-left:10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.layui-form-item .layui-input-inline{
+	width:120px;
+}
+.layui-form-label{
+	width: 90px;
+}
+.inputRadio input{
+	display: block;
+	float: left;
+	margin-top:15px;
+	margin-left: 5px;
+}
+.inputRadio i{
+	display: block;
+	float: left;
+	font-style: normal;
+	margin-left: 10px;
+	line-height: 42px;
+}
+.pageLeft ul li span{
+	display: block;
+	width: 16px;
+	height: 16px;
+	border:1px solid #ddd;
+	float: left;
+}
+.pageLeft ul li strong{
+	float: left;
+	margin-left: 10px;
+}
+.pageLeft ul li span i{
+	display: none;
+	width: 10px;
+	height: 10px;
+	background: #ffa000;
+	margin:0 auto;
+	margin-top:3px;
+
+}
+
+/*任务进度详情侧滑栏*/
+.taskSlider{
+	width: 30%;
+	height:100%;
+	position: fixed;
+	right:-25%;
+	bottom:0;
+	background: #fff;
+	box-shadow: 1px 1px 5px rgba(0,0,0,.3);
+	display: none;
+	z-index: 99999999;
+}
+.taskSlider .titleTop{
+	width:100%;
+	height:50px;
+	background: #2F4056;
+	line-height: 50px;
+	text-indent: 10px;
+	color:#fff;
+	font-size: 18px;
+}
+.taskSlider .titleTop span{
+	display: block;
+	width: 5px;
+	height:40px;
+	margin-top:5px;
+	background: #009688;
+	float: left;
+	margin-left: 10px;
+}
+.task_info{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.task_content{
+	border-bottom: 1px solid #ddd;
+}
+.task_title{
+	width: 90%;
+	margin:0 auto;
+	height:80px;
+	border-bottom:1px solid #ddd;
+}
+.task_title span{
+	display: block;
+	width:70px;
+	height:70px;
+	text-align: center;
+	line-height: 70px;
+	border:2px solid #009688;
+	border-radius: 50%;
+	margin-top:4px;
+	float: left;
+}
+.task_title h4{
+	text-indent: 15px;
+	line-height: 40px;
+	font-size: 18px;
+}
+.task_title h5{
+	text-indent: 15px;
+	font-size: 14px;
+	color:#ccc;
+}
+.neirong{
+	width: 85%;
+	line-height: 30px;
+	margin:0 auto;
+	text-indent: 2em;
+	min-height: 80px;
+}
+.jindu{
+	height:30px;
+	line-height: 30px;
+	text-indent: 10px;
+	background: #f2f2f2;
+}
+.jindu_title{
+	height: 60px;
+	width:35%;
+	float: left;
+	border-right:1px solid #ddd;
+	background: #fff;
+
+}
+.jindu_info{
+	width: 100%;
+	height:65%;
+	overflow-y:scroll;
+}
+.jindu_info ul li{
+	padding: 15px;
+	border-bottom:1px solid #f2f2f2;
+	overflow: hidden;
+	position: relative;
+	background: #fff;
+}
+.jindu_info ul li p{
+	width: 60%;
+	float: right;
+	background: #fff;
+	min-height: 90px;
+}
+.jindu_title span{
+	display: block;
+	width: 50px;
+	height:50px;
+	border-radius: 50%;	
+	overflow: hidden;
+	float: left;
+}
+.jindu_title span img{
+	width:100%;
+	height:100%;
+
+}
+.jindu_title h4{
+	text-indent: 10px;
+}
+.jindu_title h5{
+	text-indent: 10px;
+}
+.pinlunBtn{
+	width: 75px;
+	height:25px;
+	border:1px solid #dddddd;
+	background: #f2f2f2;
+	text-align: center;
+	line-height: 25px;
+	position: absolute;
+	left:0;
+	bottom: 0;
+	cursor: pointer;
+}
+.jindu_info ul li dl{
+	background: #f2f2f2;
+	overflow: hidden;
+	width:100%;
+	display: block;
+	margin-top:10px;
+	display: none;
+}
+.jindu_info ul li dl dd{
+	display: block;
+	position: relative;
+	overflow: hidden;
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+}
+.jindu_info ul li dl dd .left-portrait{
+	width: 80px;
+	float: left;
+}
+.jindu_info ul li dl dd p{
+	width: 80%;
+	line-height: 30px;
+	min-height: 40px;
+}
+.jindu_info ul li dl dd cite{
+	position: absolute;
+	right:5px;
+	top:5px;
+	font-style:normal;
+}
+.jindu_info ul li dl dd .left-portrait img{
+	width: 40px;
+	height:40px;
+	border-radius: 50%;
+}
+.jindu_info ul li dl dd button{
+	position: absolute;
+	right:0;
+	bottom:0;
+	display: block;
+	border:0;
+	background: none;
+	cursor: pointer;
+}
+.jindu_info ul li dl dd p{
+	background: #f2f2f2;
+}
+.top-con{
+	overflow: hidden;
+	background: #fff;
+	position: relative;
+}
+.btnAddPinlun{
+	position: absolute;
+	left:0;
+	bottom:7%;
+	width: 90px;
+	height:5%;
+	background: #ffc400;
+	color:#fff;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+	margin-top: 5px;
+}
+.deleteTask{
+	cursor: pointer;
+}
+.mask{
+	width:100%;
+	height:100%;
+	opacity: 0;
+	filter:alpha(opacity=0);
+	background: rgba(0,0,0,.3);
+	display: none;
+	z-index: 9998;
+	position: fixed;
+	left:0;
+	top:0;
+}

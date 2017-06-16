@@ -1,0 +1,131 @@
+.titleNav .bgColor1{
+	background: #2F4056;
+}
+.titleNav{
+	width:100%;
+	height:60px;
+	background: #f9f9f9;
+	overflow: hidden;
+}
+.titleNav .addDepar{
+	width:126px;
+	height:40px;
+	border-radius: 5px;
+	color:#fff;
+	background: #00bf75;
+	text-align:center;
+	line-height: 40px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top:10px;
+	margin-left:15px;
+	float: left;
+}
+.titleNav .addDepar i{
+	font-size: 20px;
+	font-weight: bold;
+}
+.serchBox .info_serch{
+	float: left;
+	margin-left:15px;
+	width:25%;
+}
+.serchBox .info_serch span{
+	height:38px;
+}
+.serchBox .info_serch span button{
+	border:0;
+	background:none;
+	display: block;
+	width: 100%;
+	height:100%;
+	cursor: pointer;
+}
+.serchBox .info_serch input{
+	width:65%;
+}
+.serchBox .btnList{
+	width:80px;
+	height:40px;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	margin-top:10px;
+	color:#fff;
+	margin-left:10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.formBox ul li div{
+	padding: 0;
+	margin-left:10px;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+	height: 32px;
+	line-height: 32px;
+	width: 60px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	border-width: 0px;
+	border-style: initial;
+	border-color: initial;
+	border-image: initial;
+	border-radius: 3px;
+	background: linear-gradient(rgb(59, 152, 214) 0px, rgb(25, 126, 193) 100%) repeat-x rgb(42, 139, 204) !important;
+	background-repeat: repeat-x !important;
+}
+.inputfile + label {
+	cursor: pointer; /* 小手光标*/
+}
+.inputfile:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+.inputfile + label * {
+	pointer-events: none;
+}
+.pageLeft ul li span{
+	display: block;
+	width: 16px;
+	height: 16px;
+	border:1px solid #ddd;
+	float: left;
+}
+.pageLeft ul li strong{
+	float: left;
+	margin-left: 10px;
+}
+.pageLeft ul li span i{
+	display: none;
+	width: 10px;
+	height: 10px;
+	background: #ffa000;
+	margin:0 auto;
+	margin-top:3px;
+}
+.formBox ul li{
+	height: 45px;
+}
+.formBox ul li .inputRadio input{
+	display: block;
+	float: left;
+
+	margin-left: 10px;
+	width: auto;
+}
+.inputRadio i{
+	float: left;
+	display: block;
+	line-height: 40px;
+	margin-left: 5px;
+	font-style: normal;
+}

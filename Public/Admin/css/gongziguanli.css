@@ -1,0 +1,38 @@
+.serchBox .info_serch{
+	float: left;
+	margin-left:15px;
+	width:20%;
+}
+.serchBox .info_serch input{
+	width:55%;
+}
+.serchBox .btnList{
+	width:120px;
+	height:40px;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	margin-top:10px;
+	color:#fff;
+	margin-left:10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.timeBox{
+	margin-top:10px;
+	float: left;
+	margin-left: 10px;
+}
+.timeBox span{
+	display: block;
+	width:40px;
+	height:38px;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	font-size: 22px;
+	border:1px solid #e6e6e6;
+	border-radius: 2px;
+	border-right:0;
+	background: #c9c9c9;
+}

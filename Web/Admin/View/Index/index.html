@@ -1,0 +1,57 @@
+
+<!--</html>-->
+<include file="Index/header" />
+<!-- 左边导航区域 -->
+<include file="Index/left" />
+<!-- 右边头部当前位置 -->
+<div class="nowPosition">
+	<ul>
+		<li>当前位置:</li>
+		<li class="active">首页</li>
+		<li><i class="iconfont icon-jiantouyou"></i></li>
+		<li>计划管理</li>
+	</ul>
+</div>
+<!-- 框架iframe -->
+<div class="right">
+	<iframe id="iframe" style="border:0; width:100%;position: absolute;left:0;top:1%;height:98%;" name="iframe" frameborder="0" src="home.html"></iframe>
+</div>
+<!-- 右侧底部版权 -->
+<div class="foot">
+	版权所有：贵州知商网络技术开发有限公司    服务热线：400-838-0299    地址：贵阳花果园财富广场1号楼27层
+</div>
+</div>
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		//一般直接写在一个js文件中
+		layui.use(['layer', 'form','element'], function(){
+			var layer = layui.layer;
+			var element = layui.element();
+			var formEle = form = layui.form();
+			layer.closeAll();
+			var element = layui.element();
+			var iframeEle = $('#iframe');
+			$('.left').on('click','a',function(){
+				var htmlUrl = $(this).attr('name');
+				if(htmlUrl == undefined){
+					return false;
+				}else{
+					iframeEle.css({
+						'opacity':0,
+						'left':5+'%',
+						'display':'none'
+					});
+					iframeEle.attr('src',htmlUrl).ready();
+					iframeEle.css('display','block')
+					iframeEle.animate({
+						'opacity':1,
+						'left':0
+					},1000).dequeue();
+				}
+			});
+		});
+	})
+
+</script>
+</html>

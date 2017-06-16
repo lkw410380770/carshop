@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>会员管理</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/font/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/layui/css/layui.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/public.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/plan.css">
+    <script type="text/javascript" src="__PUBLIC__/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/layui/layui.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/addAdmin.js"></script>
+</head>
+<body>
+<div class="bigBox">
+    <div class="titleNav">
+        <span class="futitle">会员管理</span>
+        <a href="__URL__/add"><span class="addPlan btnright"><i class="iconfont icon-jiahao"></i>添加会员等级</span></a>
+    </div>
+    <div class="info_table">
+        <table class="layui-table layui-form" lay-even>
+            <thead>
+            <tr>
+                <th width="50"><input type="checkbox" name="" lay-skin="primary"></th>
+                <th width="200">id</th>
+                <th>会员名称</th>
+                <th>积分下限</th>
+                <th>积分上限</th>
+                <th>折扣率</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <volist name="brandList" id="tree">
+                <tr>
+                    <td><input type="checkbox" name="" lay-skin="primary"></td>
+                    <td>{$tree.id}</td>
+                    <td>{$tree.level_name}</td>
+                    <td>{$tree.points_min}</td>
+                    <td>{$tree.points_max}</td>
+                    <td>{$tree.rate}</td>
+                    <td>
+                        <a onClick="" href="__URL__/edit/id/{$tree.id}" title="详情" class="tableBtn co1"><i
+                                class="iconfont icon-xiangqingshuoming"></i>修改</a>
+                        <a title="删除" href="__URL__/deletePlan/id/{$tree.id}" class="tableBtn co2"><i
+                                class="iconfont icon-delete"></i>删除</a>
+                    </td>
+                </tr>
+            </volist>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 分页 -->
+    <div class="pageBox">
+        <div class="pageRight">{$page}</div>
+    </div>
+</div>
+</body>
+</html>
+</body>
+<script>
+    var guanliUrl = "{:U('Plan/guanliBox')}";
+</script>
+

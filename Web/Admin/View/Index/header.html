@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/font/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/layui/css/layui.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/index.css">
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/layui/layui.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/index.js"></script>
+	<script type="text/javascript">
+		layui.use(['layer', 'form'], function(){
+			var layer = layui.layer
+					,form = layui.form();
+			layer.load();
+		});
+	</script>
+</head>
+<body>
+<div class="wrap">
+	<!-- 头部区域 -->
+	<div class="top">
+		<img src="__PUBLIC__/images/logo.png">
+		<span><?php echo session('username'); ?></span>
+		<div class="userinfo">
+			<div class="user_left">
+				<span class="user_title"><img src=""></span>
+				<h4>{$_SESSION['uname']}</h4>
+				<h5>{$_SESSION['deparName']}</h5>
+			</div>
+			<span class="icon_down"><i class="iconfont icon-jiantouxia"></i></span>
+			<div class="user_back">
+				<ul>
+					<li><a href="__MODULE__/Admin/loginout">注销登录</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
